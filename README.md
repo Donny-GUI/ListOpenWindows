@@ -1,11 +1,11 @@
-# ListOpenWindows -- Python Open Windows Lister
+# ListOpenWindows -- Python Open Windows Lister :snake: :receipt:
 
 A Microsoft Windows 10 python script for listing all open windows by &lt;PID>: &lt;Window title>
 
 
-## Install 
+##  :open_file_folder:   Install 
 
-### Windows 10
+###  :desktop_computer: Windows 10 :desktop_computer:
 
 ```terminal
 git clone https://github.com/Donny-GUI/ListOpenWindows.git
@@ -17,7 +17,7 @@ py list_open_windows.py
 
 ```
 
-### WSL2
+### :heavy_dollar_sign:  WSL2  :heavy_dollar_sign:
 
 ```WSL
 git clone https://github.com/Donny-GUI/ListOpenWindows.git
@@ -25,7 +25,7 @@ cd ListOpenWindows
 python3 list_open_windows.py
 ```
 
-### from fresh WSL2 Install
+###  :heavy_dollar_sign: :sparkles: from fresh WSL2 Install :sparkles: :heavy_dollar_sign:
 ```shell
 sudo apt update && sudo apt upgrade
 sudo apt install python3 python3-pip python-is-python3
