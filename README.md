@@ -37,3 +37,10 @@ cd
 cd /mnt/c/ListOpenWindows && python list_open_windows 
 
 ```
+### Creating command for list open windows for wsl2 --  [lsw]
+with wsl 
+``` 
+sudo " \nalias lsw='cd ~/mnt/c/ListOpenWindows && python3 list_open_windows.py && cd' \n" >> ~/.bashrc && cd ~ && source .bashrc
+```
+
+```nano
